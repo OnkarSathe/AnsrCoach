@@ -1,0 +1,412 @@
+body{
+    
+}
+
+.bg-light{
+    background-color: rgb(199, 219, 86) !important;
+}
+#Bar{
+    
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand{
+    margin-right: 50%;
+    font-size: 20px;
+}
+.btn-nav{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.image1{
+    width: 100%;
+}
+#intro{
+    
+}
+.heading1{
+    position: absolute;
+    bottom:575px;
+    left: 50px;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+.para1{
+    position: absolute;
+    bottom: 420px;
+    left: 50px;
+    width: 35%;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+.heading2{
+    position: absolute;
+    bottom:330px;
+    left: 50px;
+    animation-duration: 5s;
+  animation-name: slidein;
+}
+.para2{
+    position: absolute;
+    bottom: 180px;
+    left: 50px;
+    width: 35%;
+    animation-duration: 5s;
+  animation-name: slidein;
+}
+.headingReach1{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    animation-duration: 7s;
+  animation-name: slidein;
+}
+.paraReach1{
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    animation-duration: 7s;
+  animation-name: slidein;
+}
+.headingReach2{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    animation-duration: 7s;
+  animation-name: slidein;
+}
+.paraReach2{
+    position: absolute;
+    bottom: 70px;
+    left: 200px;
+    animation-duration: 7s;
+  animation-name: slidein;
+}
+.headingReach3{
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+    animation-duration: 7s;
+  animation-name: slidein;
+}
+.paraReach3{
+    position: absolute;
+    bottom: 70px;
+    left: 400px;
+    animation-duration: 7s;
+  animation-name: slidein;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    animation-duration: 3s;
+  animation-name: slidein;
+  }
+.v2 {
+    border-left: 6px solid green;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+    animation-duration: 3s;
+  animation-name: slidein;
+  }
+  #Our-work{
+    background-color: #D5EEBB;
+      animation: pulse 5s infinite;
+  }
+  .Work-heading{
+      margin-top: 3%;
+      padding-top: 2%;
+      text-align: center;
+      font-size: 3.5rem;
+      text-shadow: 10px 12px 9px #CE5937;
+  }
+  .Work-para1{
+      margin-top: 3%;
+      text-align: center;
+       margin-left: 10%;
+       margin-right: 10%;
+  }
+  .Work-para2{
+    margin-top: 1%;
+      text-align: center;
+       margin-left: 10%;
+       margin-right: 10%;
+  }
+  .Work-table{
+    margin-top: 6%;
+  }
+  .Work-table-Heading{
+    text-align: center;
+    text-shadow: 10px 12px 9px #CE5937;
+  }
+  .Work-table-para{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+  .image-Work-table{
+    border-radius: 80%;
+        width:20%;
+        margin-left: 40%;
+        -webkit-box-shadow: 14px 13px 16px 10px rgba(0,0,0,0.78); 
+box-shadow: 14px 13px 16px 10px rgba(0,0,0,0.78);
+        
+    }
+  .Work-table2{
+    margin-top: 6%;
+}
+  .Work-table-Heading2{
+    text-align: center;
+    text-shadow: 10px 12px 9px #CE5937;
+}
+.Work-table-para2{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.image-Work-table2{
+    border-radius: 50%;
+    width:20%;
+    margin-left: 40%;
+    -webkit-box-shadow: 14px 13px 16px 10px rgba(0,0,0,0.78); 
+box-shadow: 14px 13px 16px 10px rgba(0,0,0,0.78);
+    
+}
+.line{
+    size: 1px;
+    color: black;
+}
+
+
+
+
+#mission{
+    background-color: bisque;
+}
+.mission-img{
+    border-radius: 50%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 1rem;
+    width:40%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 20px 16px 16px 18px rgba(0,0,0,0.34); 
+box-shadow: 0px 10px 13px -7px #000000, 20px 16px 16px 18px rgba(0,0,0,0.34);
+}
+.mission-heading{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 1%;
+      text-align: center;
+      text-shadow: 10px 9px 5px #10CE50;
+      animation-duration: 5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.mission-para{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.testimonial-image{
+    width:30%;
+    margin-left: 35%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 20px 16px 16px 18px rgba(0,0,0,0.34); 
+box-shadow: 0px 10px 13px -7px #000000, 20px 16px 16px 18px rgba(0,0,0,0.34);
+}
+.footer-link:hover{
+    color: red;
+}
+.footer-link{
+    margin-left: 20%;
+    font-size: 1.5rem;
+    padding-right: 1%;
+}
+.copyright{
+    text-align: center;
+}
+
+@media (max-width :1660px) {
+    #intro{
+        position: relative;
+    }
+}
+@media(max-width: 1360px){
+    #intro{
+        margin-top: 5%;
+    }
+}
+@media(max-width: 1232px){
+    #intro{
+       position : relative;
+       margin-top: 5%;  
+    }
+}
+@media(max-width: 1210px){
+    body{
+        background-color: bisque;
+    }
+    .image1{
+        width: 40%;
+        height: 40%;
+        margin-top: 5%;
+        margin-left: 30%;
+        border-radius: 80%;
+    }
+    .heading1{
+        position: static;
+        margin-top: 1%;
+        text-align: center;
+        text-shadow: 10px -9px 5px #286CFF;
+    }
+    .para1{
+        position: static;
+        margin-top: 1.5%;
+        margin-left: 35%;
+        text-align: center;
+    }
+    .heading2{
+        position: static;
+        margin-top: 2%;
+        text-align: center;
+        text-shadow: 10px -9px 5px #286CFF;
+    }
+    .para2{
+        position: static;
+        margin-top: 2.5%;
+        margin-left: 35%;
+        text-align: center;
+    }
+    #Reach-info{
+        position: relative;
+        margin-top: 20%;
+        margin-left: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.education-image{
+    width:100%;
+    height: 44.5rem;
+}
+.heading-donate{
+    position: absolute;
+    bottom: 81%;
+    left: 45%;
+    text-align: center;
+    text-shadow: -15px -9px 5px #FFA011;
+}
+.para-donate{
+    font-size: 30px;
+    position: absolute;
+    bottom: 73%;
+    left: 60%;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.donate-form{
+    width: 40rem;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+@media (max-width :1290px) {
+    .donate-form{
+        margin-top: 8%;
+    }
+    .heading-donate{
+        position: absolute;
+        bottom: 70%;
+    }
+    .para-donate{
+        position: absolute;
+        bottom: 60%;
+    }
+}
+@media (max-width :1110px){
+    .donate-form{
+        margin-top: 20%;
+    }
+    .heading-donate{
+        position: absolute;
+        bottom: 60%;
+    }
+    .para-donate{
+        position: absolute;
+        bottom:50%;
+    }
+}
+@media (max-width :995px){
+    body{
+        background-color: bisque;
+    }
+    .education-image{
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .heading-donate{
+        position: static;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .para-donate{
+        position: static;
+        margin-top: 4%;
+        text-align: center;
+    }
+    .donate-form{
+        background-color: bisque;
+        position: static;
+        margin-top: 4%;
+        margin-left: 10%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
